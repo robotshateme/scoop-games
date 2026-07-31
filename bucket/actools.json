@@ -1,10 +1,10 @@
 {
-    "version": "0.8.2727.39678",
+    "version": "0.8.2782.39874",
     "description": "Alternative launcher for Assetto Corsa named Content Manager, and some utils as well",
     "homepage": "https://github.com/gro-ove/actools",
     "license": "MS-PL",
-    "url": "https://github.com/gro-ove/actools/releases/download/v0.8.2727.39678/Content.Manager.zip",
-    "hash": "b6c1d04b3d681725228048681f748a3d73201de45c7c015abce158bc9cb7308c",
+    "url": "https://github.com/gro-ove/actools/releases/download/v0.8.2782.39874/Content.Manager.zip",
+    "hash": "67998c57fc520946f4041152dc3a1f3d5558d4da8062630e9079e31061a21f68",
     "shortcuts": [
         [
             "Content Manager.exe",

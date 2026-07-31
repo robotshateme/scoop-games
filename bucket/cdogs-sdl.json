@@ -1,11 +1,11 @@
 {
-    "version": "2.3.1",
+    "version": "2.4.0",
     "description": "Classic overhead run-and-gun game",
     "homepage": "https://cxong.github.io/cdogs-sdl/",
     "license": "GPL-2.0-or-later",
-    "url": "https://github.com/cxong/cdogs-sdl/releases/download/2.3.1/C-Dogs.SDL-2.3.1-win32.zip",
-    "hash": "00ef1ca99e1993b13eddf5ef6e8511a973912b3b3318bd9eb1881eeed40f7468",
-    "extract_dir": "C-Dogs.SDL-2.3.1-win32",
+    "url": "https://github.com/cxong/cdogs-sdl/releases/download/2.4.0/C-Dogs.SDL-2.4.0-win32.zip",
+    "hash": "acc4575977191bfeadb2a87559db61bb07b4ab71cfd298c57b3a764117999424",
+    "extract_dir": "C-Dogs.SDL-2.4.0-win32",
     "shortcuts": [
         [
             "bin\\cdogs-sdl.exe",

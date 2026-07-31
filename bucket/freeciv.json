@@ -1,10 +1,10 @@
 {
-    "version": "3.2.0",
+    "version": "3.2.5",
     "description": "Empire-building strategy game",
     "homepage": "http://www.freeciv.org/",
     "license": "GPL-2.0-or-later",
-    "url": "http://prdownloads.sourceforge.net/freeciv/Freeciv-3.2.0-msys2-win64-gtk3.22-setup.exe?download#/setup.7z",
-    "hash": "8aa2f9aa21b50d6cc7580a4b06dfc3fd833a226567e0ac0546da310f978c1b22",
+    "url": "http://prdownloads.sourceforge.net/freeciv/Freeciv-3.2.5-msys2-win64-gtk3.22-setup.exe?download#/setup.7z",
+    "hash": "3bc24dde5dec02c040bbc0a95876e938fbd827c0b7f40063fd639f093acfc4e0",
     "bin": [
         "freeciv-gtk3.22.exe",
         "freeciv-mp-gtk3.exe",

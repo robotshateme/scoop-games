@@ -1,5 +1,5 @@
 {
-    "version": "0.0.37-18110",
+    "version": "0.0.41-19672",
     "description": "Open-source Sony PlayStation 3 emulator",
     "homepage": "https://rpcs3.net/",
     "license": {
@@ -15,8 +15,16 @@
     "suggest": {
         "Microsoft Visual C++ Runtime 2022": "extras/vcredist2022"
     },
-    "url": "https://github.com/RPCS3/rpcs3-binaries-win/releases/download/build-d72f95677e92fd6031214d20861379ed005207a5/rpcs3-v0.0.37-18110-d72f9567_win64_msvc.7z",
-    "hash": "88a65cc76401ab1930e14a769a79188fc4189ef74eac76f0c4d2357f2760c25e",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/RPCS3/rpcs3-binaries-win/releases/download/build-27f0e879d3cdbdfee1302baedd9f230438b12c92/rpcs3-v0.0.41-19672-27f0e879_win64_msvc.7z",
+            "hash": "6831a188630236d94975ad36b2b22a1e7ba9aaf6aec77db05cab061794f8e175"
+        },
+        "arm64": {
+            "url": "https://github.com/RPCS3/rpcs3-binaries-win-arm64/releases/download/build-27f0e879d3cdbdfee1302baedd9f230438b12c92/rpcs3-v0.0.41-19672-27f0e879_win64_aarch64_clang.7z",
+            "hash": "9925dcf525dd902942ecad4086a6727c84c3f357f8d2ea305988d755655003b9"
+        }
+    },
     "pre_install": [
         "if (!(Test-Path \"$persist_dir\")) {",
         "   New-Item \"$persist_dir\" -ItemType Directory | Out-Null",
@@ -55,9 +63,19 @@
         "regex": "releases/download/(?<build>build-[a-f\\d]+)/rpcs3-v(?<version>[\\d.-]+)-(?<commit>[a-f\\d]+)_win64_msvc\\.7z"
     },
     "autoupdate": {
-        "url": "https://github.com/RPCS3/rpcs3-binaries-win/releases/download/$matchBuild/rpcs3-v$version-$matchCommit_win64_msvc.7z",
-        "hash": {
-            "url": "https://github.com/RPCS3/rpcs3-binaries-win/releases/download/$matchBuild/rpcs3-v$version-$matchCommit_win64_msvc.7z.sha256"
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/RPCS3/rpcs3-binaries-win/releases/download/$matchBuild/rpcs3-v$version-$matchCommit_win64_msvc.7z",
+                "hash": {
+                    "url": "https://github.com/RPCS3/rpcs3-binaries-win/releases/download/$matchBuild/rpcs3-v$version-$matchCommit_win64_msvc.7z.sha256"
+                }
+            },
+            "arm64": {
+                "url": "https://github.com/RPCS3/rpcs3-binaries-win-arm64/releases/download/$matchBuild/rpcs3-v$version-$matchCommit_win64_aarch64_clang.7z",
+                "hash": {
+                    "url": "https://github.com/RPCS3/rpcs3-binaries-win-arm64/releases/download/$matchBuild/rpcs3-v$version-$matchCommit_win64_aarch64_clang.7z.sha256"
+                }
+            }
         }
     }
 }

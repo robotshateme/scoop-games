@@ -1,5 +1,5 @@
 {
-    "version": "9.0.5",
+    "version": "9.2.3",
     "description": "A PC port of Legend of Zelda: Ocarina of Time",
     "homepage": "https://www.shipofharkinian.com",
     "license": "Unlicense",
@@ -10,8 +10,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/HarbourMasters/Shipwright/releases/download/9.0.5/SoH-Blair-Foxtrot-Win64.zip",
-            "hash": "0be869e2298cf9f0b5b58907e2aba6c4fc21321561a1fdcbf5293aa81603dc70"
+            "url": "https://github.com/HarbourMasters/Shipwright/releases/download/9.2.3/SoH-Ackbar-Delta-Win64.zip",
+            "hash": "cc7bd5ada1332be50013976fc3db3289cacde1df57e7e6cf73d4a1df81313e30"
         }
     },
     "pre_install": [

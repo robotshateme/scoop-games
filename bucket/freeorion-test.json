@@ -1,10 +1,10 @@
 {
-    "version": "2025-08-16.e108006",
+    "version": "2026-04-06.f4f24a4",
     "description": "Turn-based space empire and galactic conquest (4X) game (Test Build)",
     "homepage": "https://freeorion.org/",
     "license": "GPL-2.0",
-    "url": "https://sourceforge.net/projects/freeorion/files/FreeOrion/Test/FreeOrion_2025-08-16.e108006_Test_Win32_Setup.exe/download#/dl.zip",
-    "hash": "f0c0b9bcbbaa89b3560a35264d223e96bea52949ffab5889027171510cf55e19",
+    "url": "https://sourceforge.net/projects/freeorion/files/FreeOrion/Test/FreeOrion_2026-04-06.f4f24a4_Test_Win32_Setup.exe/download#/dl.zip",
+    "hash": "806c73336ac7a0a1836be84422e3872be1f7d586e21cab7429ab464e32ddca28",
     "shortcuts": [
         [
             "FreeOrion.exe",

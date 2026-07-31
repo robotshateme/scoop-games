@@ -1,10 +1,10 @@
 {
-    "version": "1.30.21.0",
+    "version": "1.32.0.0",
     "description": "Apple II emulator for Windows",
     "homepage": "https://github.com/AppleWin/AppleWin",
     "license": "GPL-2.0-only",
-    "url": "https://github.com/AppleWin/AppleWin/releases/download/v1.30.21.0/AppleWin1.30.21.0.zip",
-    "hash": "7948badac5184d79a35dee358bc616972b59372a56e93b37876bfb381123c292",
+    "url": "https://github.com/AppleWin/AppleWin/releases/download/v1.32.0.0/AppleWin1.32.0.0.zip",
+    "hash": "9f57f693ac082c966d37c6763109167eb958ced1814d96a9561fb380d23207ed",
     "shortcuts": [
         [
             "Applewin.exe",

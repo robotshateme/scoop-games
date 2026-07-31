@@ -1,10 +1,10 @@
 {
-    "version": "1.41",
+    "version": "1.49",
     "homepage": "https://github.com/Slazanger/SMT",
     "license": "MIT",
     "description": "Slazanger's Eve Map Tool",
-    "url": "https://github.com/Slazanger/SMT/releases/download/SMT_141/SMT_1.41a.zip",
-    "hash": "f4f1d6ebc5dbb6d468c937573d89d429d327b07707836c1d08f80095d142784f",
+    "url": "https://github.com/Slazanger/SMT/releases/download/SMT_149/SMT_1.49.zip",
+    "hash": "5067215b98b9dccd92ff003eeba74511cdbd42c29e418246cf9d6121c5c0e99c",
     "bin": "SMT.exe",
     "shortcuts": [
         [
@@ -17,9 +17,6 @@
         "regex": "SMT ([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/Slazanger/SMT/releases/download/SMT_$cleanVersion/SMT_$version.zip",
-        "hash": {
-            "mode": "download"
-        }
+        "url": "https://github.com/Slazanger/SMT/releases/download/SMT_$cleanVersion/SMT_$version.zip"
     }
 }
